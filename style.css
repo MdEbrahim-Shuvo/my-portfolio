@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common style */
+.paragraph-description {
+    color: rgba(117, 117, 117, 1);
+}
+
+.primary-color {
+    color: rgba(71, 71, 71, 1);
+}
+
+.secondary-color {
+    color: rgba(24, 24, 24, 1);
+}
+
+.btn {
+   padding: 18px 35px; 
+   background-color: rgba(253, 110, 10, 1);
+   color: rgba(255, 255, 255, 1);
+   font-size: 20px;
+   font-weight: 700;
+   border-radius: 5px;
+   border: none;
+}
+.bg-primary {
+    background-color: rgba(255, 248, 243, 1);
+}
+
+.white-btn {
+   padding: 18px 35px; 
+   background-color: rgba(255, 248, 243, 1);
+   color: rgba(253, 110, 10, 1);
+   font-size: 20px;
+   font-weight: 700;
+   border-radius: 5px;
+   border: 2px solid rgba(253, 110, 10, 1);
+}
+
+body {
+    font-family: "Kanit", serif;
+    font-style: normal;
+}
+
+
+
+.header-area {
+    background: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-logo {
+    margin: 50px 130px 0;
+}
+.navigation-logo > h2 {
+    font-size: 45px;
+    font-weight: 900;
+    color: rgba(24, 24, 24, 1);
+}
+
+.navigation-logo span {
+    color: rgba(253, 110, 10, 1);
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    margin: 50px 130px 0;
+}
+
+.nav-link > li {
+    list-style: none;
+    margin-right: 68px;
+}
+
+.nav-link > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(71, 71, 71, 1);
+}
+
+/* Hero-area style */
+
+.hero-subtitle {
+    font-size: 45px;
+    font-weight: 600;
+    color: rgba(71, 71, 71, 1);
+}
+.hero-content {
+    width: 580px;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 0 130px;
+    
+}
+.hero-area > img {
+    height: 650px;
+}
+
+.title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.hero-desc {
+    margin: 20px 0;
+}
+
+.gap-btn {
+    margin-right: 20px;
+}
